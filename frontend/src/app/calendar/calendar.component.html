@@ -10,7 +10,7 @@
   
       <!-- Navbar Links -->
       <ul class="mr-5">
-        <li><a class="bg-transparent" href="/home">Home</a></li>
+        <li><a class="bg-transparent" href="/">Home</a></li>
         <span>or</span>
         <li><a class="bg-transparent" href="/forum">Forum</a></li>
       </ul>
@@ -33,3 +33,9 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
   </div>
+
+    <mwl-calendar-month-view
+    [viewDate]="viewDate"
+    [refresh]="refresh"
+    [activeDayIsOpen]="activeDayIsOpen">
+  </mwl-calendar-month-view>

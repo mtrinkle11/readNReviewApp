@@ -12,12 +12,11 @@ import { SubscribeComponent } from "./subscribe/subscribe.component";
 const routes: Routes = [
   { path: "calendar", component: CalendarComponent },
   { path: "forum", component: ForumComponent },
-  { path: "home", component: HomeComponent },
+  { path: "", component: HomeComponent },
   { path: "sign-in", component: SignInComponent },
   { path: "subscribe", component: SubscribeComponent },
   { path: "reset-password", component: ResetPasswordComponent },
-  { path: "", redirectTo: "/", pathMatch: "full" }
-  ];
+];
   
   
   @NgModule({
