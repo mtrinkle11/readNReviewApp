@@ -8,7 +8,7 @@
 		die("ERROR!");
 	}
 
-    echo "connected";
+    //echo "connected";
 
 
 ?>

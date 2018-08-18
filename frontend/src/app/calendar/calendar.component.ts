@@ -19,7 +19,7 @@ export class CalendarComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.http.get('http://localhost:8080/backendRnR/bible_api.php').subscribe(console.log);
+    this.http.get('http://localhost:8080/backend/bible_api.php').subscribe(console.log);
   }
 
 }
