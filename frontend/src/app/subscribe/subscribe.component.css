@@ -57,7 +57,7 @@ h1{
 .loginbox input[type="text"], input[type="password"], input[type="email"]{
   border: none;
   border-bottom: 1px solid #bdc3c7;
-  background: white;
+  background: black;
   outline: none;
   height: 30px;
   font-size: 16px;
@@ -70,8 +70,8 @@ h1{
   border: none;
   outline: none;
   height: 40px;
-  background: #666666;
-  color: white;
+  background: black;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   border-radius: 20px;
@@ -81,14 +81,14 @@ h1{
 .loginbox input[type="submit"]:hover {
   cursor: pointer;
   background: #666666;
-  color: #fff;
+  color: black;
   
 }
 
 .loginbox a {
   font-size: 14px;
   text-decoration: none;
-  color: #fff;
+  color: black;
   opacity: 0.3;
 }
 

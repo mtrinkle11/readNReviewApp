@@ -13,7 +13,7 @@ body{
     width: 100%;
     top: 0;
     bottom: 0;
-    background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fopelousaseunicepubliclibrarydotorg.files.wordpress.com%2F2015%2F07%2Fbook-background.jpg%3Fw%3D917");
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7857ea46fded9c0fcb5b65b9a20a41d9&w=1000&q=80");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -21,7 +21,7 @@ body{
 .loginbox{
     width: 320px;
     height: 360px;
-    color: #000;
+    background-color: rgb(255, 230, 170);
     top: 50%;
     left: 50%;
     padding: 60px 30px;
@@ -29,15 +29,17 @@ body{
     transform: translate(-50%,  -50%);
     box-sizing: border-box;
     border-radius: 3%;
-    box-shadow: 8px 8px 50px #000;
+    box-shadow: 8px 8px 50px white;
+
 }
 h1{
-    color: #fff;
+    color: black;
     margin: 0;
     padding: 0 0 0px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+    font-family:  'Playfair Display';
 }
 
 .loginbox p {
@@ -55,12 +57,12 @@ h1{
 .loginbox input[type="email"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #bdc3c7;
-    background: transparent;
     outline: none;
     height: 30px;
     font-size: 16px;
     opacity: 1;
-    color: black;
+    color: black ;
+    font-family:  'Playfair Display';
 }
 
 
@@ -73,20 +75,20 @@ h1{
     font-size: 14px;
     font-weight: bold;
     border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display';
 }
 
 .loginbox input[type="submit"]:hover {
     cursor: pointer;
     background: #666666;
-    color: #fff;
+    color: black;
     
 }
 
 .loginbox a {
     font-size: 14px;
     text-decoration: none;
-    color: #fff;
+    color: black;
     opacity: 0.8;
 }
 
@@ -97,11 +99,11 @@ h1{
 
 #text-account {
     font-size: 14px;
-    color: #fff;
+    color: black;
     opacity: 0.4;
 }
 
- create-account hover {
+ #create-account hover {
     text-decoration: underline;
     font-weight: bold;
 }
