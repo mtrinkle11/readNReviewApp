@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<div class="after-navbar">
+  <h1>Passage: {{passage.inputstring}}</h1>
+  <div *ngFor="let v of passage.verses">
+    <strong>{{v.ref}}</strong>
+    <small>{{v.text}}</small>
+  </div>
+</div>

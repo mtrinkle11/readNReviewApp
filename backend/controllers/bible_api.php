@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 //$json_string = 'https://api.lsm.org/recver.php?String=Psalm119&Out=json'; // string with the url of the website
 //$jsondata = file_get_contents($json_string); // fetches the information from the api
 //$obj = json_decode($jsondata, TRUE); // Set second argument as TRUE, converts information from "jsondata" variable to an array
