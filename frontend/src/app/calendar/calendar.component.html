@@ -1,41 +1,13 @@
-<nav id="navbar" class="">
-    <div class="nav-wrapper">
-      <!-- Navbar Logo -->
-      <div class="logo">
-        <!-- Logo Placeholder for Inlustration -->
-        <h4 class="bg-transparent text-black mt" href="/home">
-           <img href="/home" class="pic" src="https://files.slack.com/files-pri/T8TBSJ9S9-FC4DGKDJP/logo-for-mike.png">
-            Read-N-Review</h4>
-      </div>
+<app-navbar></app-navbar>
   
-      <!-- Navbar Links -->
-      <ul class="mr-5">
-        <li><a class="bg-transparent" href="/">Home</a></li>
-        <span>or</span>
-        <li><a class="bg-transparent" href="/forum">Forum</a></li>
-      </ul>
-    </div>
-  </nav>
-  
-  
-  <!-- Menu Icon -->
-  <div class="menuIcon">
-    <span class="icon icon-bars"></span>
-    <span class="icon icon-bars overlay"></span>
-  </div>
-  
-  
-  <div class="overlay-menu">
-    <ul id="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-  </div>
-
+<div class="after-navbar">
     <mwl-calendar-month-view
+    [events]="events"
     [viewDate]="viewDate"
     [refresh]="refresh"
     [activeDayIsOpen]="activeDayIsOpen">
   </mwl-calendar-month-view>
+
+</div>
+
+    

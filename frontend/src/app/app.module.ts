@@ -12,6 +12,8 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { AppRoutingModule } from './/app-routing.module';
 import { CalendarModule } from 'angular-calendar';
 import { HttpClientModule } from '@angular/common/http';
+import { PassageComponent } from './passage/passage.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     SubscribeComponent,
     CalendarComponent,
     ForumComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    PassageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

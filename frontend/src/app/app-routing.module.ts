@@ -7,6 +7,7 @@ import { HomeComponent } from "./home/home.component";
 import { ResetPasswordComponent } from "./reset-password/reset-password.component";
 import { SignInComponent } from "./sign-in/sign-in.component";
 import { SubscribeComponent } from "./subscribe/subscribe.component";
+import { PassageComponent } from './passage/passage.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: "sign-in", component: SignInComponent },
   { path: "subscribe", component: SubscribeComponent },
   { path: "reset-password", component: ResetPasswordComponent },
+  { path: "passage/:id", component: PassageComponent}
 ];
   
   
