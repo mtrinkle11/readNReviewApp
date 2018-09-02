@@ -1,15 +1,18 @@
-<body>
-<div id="overlay"></div>
-    <div class="loginbox">
-        <h1>Please Sign In</h1><br>
-        <form>
-            <input type="email" placeholder="Email"><br>
-            <input type="password" placeholder="Password">
-            <div class="col-md-5 text-center">
-            <a class="btn btn-outline-dark" href="/calendar" role="button">Login</a>
-            </div>
-        </form>
-        <a href="/reset-password">Forgot Password?</a><br>
-        <span id="text-account">Don't have an account?</span><a id="create-account" href="/subscribe"> Create here.</a>
+<div id="overlay">
+</div>
+<div class="loginbox">
+  <h1>Please Sign In</h1>
+  <br>
+  <form (ngSubmit)="login()">
+    <input type="email" placeholder="Email" [(ngModel)]="email" name="email">
+    <br>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Password">
+    <div class="col-md-5 text-center">
+      <button class="btn btn-outline-dark" type="submit">Login</button>
     </div>
-</body>
+  </form>
+  <a href="/reset-password">Forgot Password?</a>
+  <br>
+  <span id="text-account">Don't have an account?</span>
+  <a id="create-account" href="/subscribe"> Create here.</a>
+</div>
