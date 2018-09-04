@@ -1,96 +1,96 @@
-
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body {
+    font-family: 'Quicksand', sans-serif;
+  }
+</style>
+<body>
   <!-- Navbar -->
   <nav id="navbar" class="">
-      <div class="nav-wrapper">
-        <!-- Navbar Logo -->
-        <div class="logo">
-          <!-- Logo Placeholder for Inlustration -->
-          <h4 class="bg-transparent text-black mt" href="/home">
-             <img href="/home" class="pic" src="https://files.slack.com/files-pri/T8TBSJ9S9-FC4DGKDJP/logo-for-mike.png">
-            Read-N-Review</h4>
-        </div>
-    
-        <!-- Navbar Links -->
-        <ul id="menu">
-          <li><a class="bg-transparent" href="/home">Home</a></li><!--
-       --><li><a class="bg-transparent" href="/calendar">Calendar</a></li><!--
-       --><li><a class="bg-transparent" href="/forum">Forum</a></li>
-       <a class="btn btn-default-corner btn-signin visible-md visible-lg w3-hover-black" href="/sign-in">Sign in</a>
-        </ul>
+  <div class="nav-wrapper">
+    <!-- Navbar Logo -->
+    <div class="logo">
+      <!-- Logo Placeholder for Inlustration -->
+      <h4 class="bg-transparent text-black mt" href="/home">
+         <img href="/home" class="pic" src="https://files.slack.com/files-pri/T8TBSJ9S9-FC4DGKDJP/logo-for-mike.png">
+        Read-N-Review</h4>
+    </div>
+    <!-- Navbar Links -->
+    <ul id="menu">
+      <li><a class="bg-transparent" href="/home">Home</a></li><!--
+   --><li><a class="bg-transparent" routerLink="/calendar">Calendar</a></li><!--
+   --><li><a class="bg-transparent" routerLink="/forum">Forum</a></li>
+   <a class="btn btn-default-corner btn-signin visible-md visible-lg w3-hover-black" routerLink="/subscribe">Subcribe</a>
+    </ul>
+  </div>
+</nav>
+<!-- Menu Icon -->
+<div class="menuIcon">
+  <span class="icon icon-bars"></span>
+  <span class="icon icon-bars overlay"></span>
+</div>
+<div class="overlay-menu">
+  <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="/calendar">Calendar</a></li>
+      <li><a href="#books">Forum</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:500px" id="home">
+    <img class="w3-image" src="https://media.swncdn.com/cms/CW/faith/39891-HolyBible-Bible-read-ThinkstockPhotos-585291064.1200w.tn.jpg"
+      alt="Read Me" width="1600" height="800">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-xxlarge subtext">The Best Website For Organizing</h1>
+      <h1 class="w3-xxlarge subtext">Your Book Clubs</h1>
+      <a routerLink="/sign-in" class="btn btn-default-corner join subtext w3-hover-dark">Join Your Club </a>
+    </div>
+  </header>
+  <div class="w3-row-padding w3-center w3-margin-top">
+    <div class="w3-third">
+      <div class="w3-card w3-container back" style="min-height:460px">
+      <h3>The Bible</h3><br>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/615z7r0-Y%2BL._SX258_BO1,204,203,200_.jpg" alt="Boss" class="img">
+      <p class="mt-3">Contains the revelations of God and is the guiding holy text of the Christian religion.</p>
       </div>
-    </nav>
-    
-    
-    <!-- Menu Icon -->
-    <div class="menuIcon">
-      <span class="icon icon-bars"></span>
-      <span class="icon icon-bars overlay"></span>
     </div>
     
-    
-    <div class="overlay-menu">
-      <ul id="menuTwo">
-          <li><a href="#home">Home</a></li>
-          <li><a href="/calendar">Calendar</a></li>
-          <li><a href="#books">Forum</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <div class="w3-third">
+      <div class="w3-card w3-container back" style="min-height:460px">
+      <h3>The Old Testament</h3><br>
+      <img src="http://en.elds.org/historyofmormonism-com/files/2014/11/holy-bible-old-testament-kjv.jpg" alt="Boss" class="img">
+      <p class="mt-3">Lorem Ipsum</p>
+      </div>
     </div>
     
-      <!-- Header -->
-      <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:500px" id="home">
-        <img class="w3-image" src="https://media.swncdn.com/cms/CW/faith/39891-HolyBible-Bible-read-ThinkstockPhotos-585291064.1200w.tn.jpg"
-          alt="Read Me" width="1600" height="800">
-        <div class="w3-display-left w3-padding-large">
-          <h1 class="w3-xxlarge subtext">The Best Website For Organizing</h1>
-          <h1 class="w3-xxlarge subtext">Your Book Clubs</h1>
-          <a href="/sign-in" class="btn btn-default-corner join subtext w3-hover-dark">Join Your Club </a>
+    <div class="w3-third">
+      <div class="w3-card w3-container back" style="min-height:460px">
+      <h3>The New Testament</h3><br>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51TCM5HWXFL._SX318_BO1,204,203,200_.jpg" alt="Boss" class="img">
+      <p class="mt-3">Tells the story of how God fulfilled those promises, by coming into the world in the person of Jesus, his Son.</p>
+      </div>
+    </div>
+    </div>
+      <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
+      <!-- About Section -->
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <p class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750"> "Our Picture Here"</p>
         </div>
-      </header>
-    
-    
-      <div class="w3-row-padding w3-center w3-margin-top">
-        <div class="w3-third">
-          <div class="w3-card w3-container back" style="min-height:460px">
-          <h3>The Bible</h3><br>
-          <img src="https://www.biblword.net/wp-content/uploads/2018/02/do-christians-have-to-keep-the-old-testament-law-740x444.jpg" alt="Boss" class="img">
-          <p class="mt-3">Lorem Ipsum</p>
-          </div>
+  
+        <div class="w3-col m6 w3-padding-large">
+          <h2 class="w3-center">About Us</h2>
+          <h5 class="w3-center">Tradition since 2018</h5>
+          <p class="w3-large w3-center">Lorem ipsum dolor sit amet, has utinam cetero epicuri at, quo patrioque theophrastus te. Blandit singulis iracundia
+            at eam. Omittantur dissentiet vel at. Ut eirmod maiestatis temporibus vim. Wisi eius magna no vim, dolorum corpora
+            dolores eu est. Vivendo alienum voluptua in vim, eos ut aliquam maiorum officiis.</p>
         </div>
-        
-        <div class="w3-third">
-          <div class="w3-card w3-container back" style="min-height:460px">
-          <h3>The Old Testament</h3><br>
-          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/04/6f/5e/046f5eb5-a579-0c0f-400f-79da98f513dd/AppIcon-1x_U007emarketing-85-220-0-8.png/246x0w.jpg" alt="Boss" class="img">
-          <p class="mt-3">Lorem Ipsum</p>
-          </div>
-        </div>
-        
-        <div class="w3-third">
-          <div class="w3-card w3-container back" style="min-height:460px">
-          <h3>The New Testament</h3><br>
-          <img src="https://images-na.ssl-images-amazon.com/images/I/51TCM5HWXFL._SX318_BO1,204,203,200_.jpg" alt="Boss" class="img">
-          <p class="mt-3">Lorem Ipsum</p>
-          </div>
-        </div>
-        </div>
-    
-          <!-- Page content -->
-      <div class="w3-content" style="max-width:1100px">
-    
-          <!-- About Section -->
-          <div class="w3-row w3-padding-64" id="about">
-            <div class="w3-col m6 w3-padding-large w3-hide-small">
-              <p class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750"> "Our Picture Here"</p>
-            </div>
-      
-            <div class="w3-col m6 w3-padding-large">
-              <h2 class="w3-center">About Us</h2>
-              <h5 class="w3-center">Tradition since 2018</h5>
-              <p class="w3-large w3-center">Lorem ipsum dolor sit amet, has utinam cetero epicuri at, quo patrioque theophrastus te. Blandit singulis iracundia
-                at eam. Omittantur dissentiet vel at. Ut eirmod maiestatis temporibus vim. Wisi eius magna no vim, dolorum corpora
-                dolores eu est. Vivendo alienum voluptua in vim, eos ut aliquam maiorum officiis.</p>
-            </div>
-          </div>
-          <br>
-          </div>
+      </div>
+      <br>
