@@ -24,7 +24,7 @@ if(!empty($_POST["login"])) {
         if ($auth === true){
             $_SESSION['name'] = $row['firstName'];
 
-            header("Location: /readNReview/welcome.php");
+            header("Location: /backend/welcome.php");
 
         } else {
             $message = "Email and Password do not match. Please try again!";
@@ -65,7 +65,7 @@ if(!empty($_POST["login"])) {
                     <input class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="login" id="btn_sub" value="Login">
                 </form>
                 <!-- /form -->
-                <a href="/backendRnR/register.php" class="forgot-password">
+                <a href="/backend/register.php" class="forgot-password">
                     Register!
                 </a>
             </div>
